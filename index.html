@@ -4,20 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Violines Online</title>
+      
+    <link rel="icon"  href="public/icon.svg">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
 </head>
 <body>
     <!-- Contenido de la página -->
-     <header>
-        <nav>
-            <h1>Violines</h1>
+     <header id="header">
+        <nav id="nav-bar">
+            <img id="header-img" src="public/3.png">
+            
             <ul>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">How It Work</a></li>
-                <li><a href="#">Pricing</a></li>
+                <li><a class="nav-link" href="#">Features</a></li>
+                <li><a class="nav-link" href="#">How It Work</a></li>
+                <li><a class="nav-link" href="#">Pricing</a></li>
             </ul>
         </nav>
-        
      </header>
+     <div class="container">
+        <img class="imagen" src="public/violin.jpg">
+        <form action="https://www.freecodecamp.com/email-submit">
+            <h1 id="hola">Donde cada violín cuenta su propia historia</h1>
+        <h4>Unete para recibir los mejores descuentos</h4>
+        <input type="email" id="email" placeholder="Tu correo electronico">
+        <!--<input type="submit" id="submit" value="Comenzar">-->
+        
+        <button class="button">
+            Comenzar       
+        </button>
+          
+     </form>
+    </div>
+
+    <section class="atributos">
+        <div class="div1">
+            <div class="content">
+                <img class="corona" src="public/corona.png">
+                <div>
+                    <h3>Materiales Premium</h3>
+                    <p class="parrafo">
+                        Nuestros violines están elaborados con maderas de alta calidad obtenidas localmente, mejorando el sonido y la resonancia, y garantizando durabilidad por años.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="div1">
+            <div class="content">
+            <img class="corona" src="public/entrega.png">
+            <div>
+            <h3>Envío Rápido</h3>
+            <p class="parrafo">Priorizamos la entrega rápida para que disfrutes de tu violín lo antes posible. Ofrecemos devoluciones gratuitas para garantizar una experiencia sin complicaciones..</p>
+            </div></div>
+        </div>
+        <div class="div1">
+            <div class="content">
+            <img class="coron" src="public/garantia.png"><div>
+            <h3>Garantía de Calidad</h3>
+            <p class="parrafo">Con cada compra de violín, realizamos exhaustivos controles de calidad para asegurar la ausencia de defectos. Cada instrumento pasa pruebas rigurosas para garantizar un sonido impecable y precisión tonal.</p>
+        </div></div>
+    </div>
+    </section>
+
+    <!-- Video de YouTube -->
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/KjGcZtLz2a0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div id="card-area">
+		<div class="wrapper">
+			<div class="box-area">
+				<div class="box">
+					<img alt="" src="public/1.jpg">
+					<div class="overlay">
+						<h3>Maestro Old Spruce</h3>
+						<p>Destaca por su sonido sofisticado y resonante, ideal para solistas.</p><a href="#">Ordenar</a>
+					</div>
+				</div>
+				<div class="box">
+					<img alt="" src="public/2.jpg" id="ho">
+					<div class="overlay">
+						<h3>Ricard Bunnel G2</h3>
+						<p>Ofrece calidad profesional a un precio accesible, con maderas de arce y abeto de grano fino.</p><a href="#">Ordenar</a>
+					</div>
+				</div>
+				<div class="box">
+					<img alt="" src="public/31.webp" >
+					<div class="overlay">
+						<h3>Yamaha Model 5</h3>
+						<p>Combina un diseño ligero con un sonido de alta calidad, adecuado para estudiantes jóvenes y violinistas intermedios.</p><a href="#">Ordenar</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+     
 </body>
 </html>
